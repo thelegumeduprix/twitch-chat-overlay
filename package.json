@@ -1,0 +1,39 @@
+{
+  "name": "twitch-chat-overlay",
+  "version": "3.1.4",
+  "description": "A base for customizable Twitch chat overlays.",
+  "main": "index.html",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thelegumeduprix/twitch-chat-overlay.git"
+  },
+  "keywords": [
+    "twitch",
+    "chat-overlay"
+  ],
+  "author": "@thelegumeduprix",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.23.0",
+    "mocha": "^10.0.0",
+    "vite": "^3.2.7"
+  },
+  "dependencies": {
+    "colord": "^2.9.3",
+    "escape-string-regexp": "^5.0.0",
+    "html-escaper": "^3.0.3",
+    "tmi.js": "^1.8.5",
+    "twemoji": "^14.0.2"
+  }
+}
