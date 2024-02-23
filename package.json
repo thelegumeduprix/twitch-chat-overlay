@@ -1,6 +1,6 @@
 {
   "name": "twitch-chat-overlay",
-  "version": "3.1.4",
+  "version": "3.2.0",
   "description": "A base for customizable Twitch chat overlays.",
   "main": "index.html",
   "type": "module",
